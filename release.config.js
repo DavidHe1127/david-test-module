@@ -1,5 +1,10 @@
+// semantic release config
+
 module.exports = {
-  branches: ['master', { name: 'pre-release', prerelease: true }],
+  branches: [
+    'master',
+    { name: 'prerelease/*', channel: 'prerelease', prerelease: 'prerelease' },
+  ],
   plugins: [
     '@semantic-release/commit-analyzer',
     '@semantic-release/release-notes-generator',
