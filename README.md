@@ -1,4 +1,4 @@
-## david-he-module
+## david-test-module
 
 It's a useless module with the purpose of experimenting npm packages releasing workflow.
 
