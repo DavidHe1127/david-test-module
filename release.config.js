@@ -3,7 +3,7 @@
 module.exports = {
   branches: [
     'master',
-    { name: 'prerelease/*', channel: 'prerelease', prerelease: 'prerelease' },
+    { name: 'prerelease', channel: 'prerelease', prerelease: true },
   ],
   plugins: [
     '@semantic-release/commit-analyzer',
