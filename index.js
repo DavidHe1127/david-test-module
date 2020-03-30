@@ -7,4 +7,4 @@ const aws_1 = 'i have already passed sa associate';
 const game = 'i should stop playing games';
 
 
-const config = 'is config correct';
+const version = 'bump up to 1.3.0';
