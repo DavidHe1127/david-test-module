@@ -1,5 +1,7 @@
 #!/bin/bash
 
+version_tag=$1
+
 # use get-parameters to get both in one go and jq to strip out expected value
 export GITHUB_TOKEN=$(aws ssm get-parameter \
     --name /lab/github \
@@ -13,4 +15,5 @@ export NPM_TOKEN=$(aws ssm get-parameter \
     --output text \
     --with-decryption)
 
-npx semantic-release
+npm dist-tag rm david-he-module $version_tag
+npm unpublish david-he-module@$version_tag
