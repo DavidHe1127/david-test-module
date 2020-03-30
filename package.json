@@ -1,0 +1,16 @@
+{
+  "name": "david-he-module",
+  "version": "1.0.0",
+  "description": "The objective of this lab is to experiment some key npm features including:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@semantic-release/git": "^9.0.0",
+    "semantic-release": "^17.0.4"
+  }
+}
