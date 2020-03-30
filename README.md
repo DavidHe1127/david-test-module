@@ -6,4 +6,4 @@ To streamline release process, we will use `semantic-release` to assist with thi
 
 ### Versions
 
-`v1.0.0` initial release
+`v1.2.0`
