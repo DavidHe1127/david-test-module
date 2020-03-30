@@ -6,4 +6,4 @@ const aws = 'i need to pass SA Pro';
 const aws_1 = 'i have already passed sa associate';
 const game = 'i should stop playing games';
 
-const release = 'push 1.4.1';
+const version = 'fix version';
