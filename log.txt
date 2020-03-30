@@ -1,0 +1,14 @@
+[10:28:32 PM] [semantic-release] › ℹ  Found git tag v1.2.0 associated with version 1.2.0 on branch prerelease
+[10:28:32 PM] [semantic-release] › ℹ  Found 4 commits since last release
+[10:28:32 PM] [semantic-release] › ℹ  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: feat(version): 1.4.0
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The release type for the commit is minor
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: reset ver to 1.2.0
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: feat(ver): bump up to 1.3.0
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The release type for the commit is minor
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: Reset
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[10:28:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analysis of 4 commits complete: minor release
+[10:28:32 PM] [semantic-release] › ✔  Completed step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[10:28:32 PM] [semantic-release] › ℹ  The next release version is 1.3.0-prerelease.1
