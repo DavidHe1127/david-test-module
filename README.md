@@ -1,12 +1,8 @@
-## NPM
+## david-he-module
 
-The objective of this lab is to experiment some key npm features including:
-
-1. Versioning
-2. Release (Publish versions)
+It's a useless module with the purpose of experimenting npm packages releasing workflow.
 
 To streamline release process, we will use `semantic-release` to assist with this.
-
 
 ## Notes
 
