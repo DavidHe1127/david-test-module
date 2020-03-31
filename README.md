@@ -42,4 +42,4 @@ Once merged, do another release from `master` which will finally get you `v1.4.0
 
 So, in this case, `semantic-release` will target `1.3.0` for the next release.
 3. `prerelease` should only be used to merge features from `feature` branches and publish pre-release versions. Dev work must not be done there.
-
+4. `feature` branch should be checked out from `master`.
