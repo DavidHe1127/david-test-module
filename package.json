@@ -1,6 +1,6 @@
 {
   "name": "david-test-module",
-  "version": "1.6.0",
+  "version": "1.7.0-prerelease.1",
   "description": "The objective of this lab is to experiment some key npm features including:",
   "main": "index.js",
   "scripts": {
