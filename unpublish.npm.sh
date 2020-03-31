@@ -15,5 +15,5 @@ export NPM_TOKEN=$(aws ssm get-parameter \
     --output text \
     --with-decryption)
 
-npm dist-tag rm david-he-module $version_tag
-npm unpublish david-he-module@$version_tag
+npm dist-tag rm david-test-module $version_tag
+npm unpublish david-test-module@$version_tag
