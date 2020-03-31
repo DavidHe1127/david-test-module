@@ -12,6 +12,8 @@ To streamline release process, we will use `semantic-release` to assist with thi
 
 ### Prerelease workflow
 
+#### Feature
+
 Suppose you have your module at `v1.3.0` at the moment. And you want to bump it up to `v1.4.0` with some features. You want to use pre-release supported by `semantic-release`. Below shows sequential steps
 
 - New a `prerelease` branch from `master`.
@@ -39,4 +41,5 @@ Once merged, do another release from `master` which will finally get you `v1.4.0
 ```
 
 So, in this case, `semantic-release` will target `1.3.0` for the next release.
+3. `prerelease` should only be used to merge features from `feature` branches and publish pre-release versions. Dev work must not be done there.
 
