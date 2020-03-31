@@ -7,3 +7,5 @@ const aws_1 = 'i have already passed sa associate';
 const game = 'i should stop playing games';
 
 const nextVersion = '1.6.1'
+
+const xx = 'xx'
