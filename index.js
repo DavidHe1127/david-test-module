@@ -1,6 +1,8 @@
 const msg = 'bug fix'
 const message = 'greeeeen';
 
+const color = 'red'
+
 const semantic_release = 'it\s an awesome tool';
 
 
