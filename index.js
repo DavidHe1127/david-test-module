@@ -1,4 +1,6 @@
-const message = 'this is so cooler';
+
+const message = 'greeeeen';
+
 const semantic_release = 'it\s an awesome tool';
 
 
