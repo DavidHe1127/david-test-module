@@ -1,4 +1,4 @@
-
+const msg = 'bug fix'
 const message = 'greeeeen';
 
 const semantic_release = 'it\s an awesome tool';
