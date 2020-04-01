@@ -1,3 +1,5 @@
+const x = '2.0.0.a'
+
 const msg = 'bug fix'
 const message = 'greeeeen';
 
