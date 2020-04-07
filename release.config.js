@@ -18,4 +18,5 @@ module.exports = {
     '@semantic-release/git',
   ],
   ci: false,
+  dryRun: true
 };
