@@ -4,7 +4,12 @@
 const text = {
   type: 'mrkdwn',
   text:
-    'A new version of $package_name with version $npm_package_version has been released at $repo_url!',
+    `$package_name@$npm_package_version
+
+     :ghost::ghost:
+
+     $release_notes
+    `
 };
 
 module.exports = {
