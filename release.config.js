@@ -4,7 +4,7 @@
 const text = {
   type: 'mrkdwn',
   text:
-    'New Paid Time Off request from <example.com|Fred Enriquez>\n\n<https://example.com|View request>',
+    'A new version of $package_name with version $npm_package_version has been released at $repo_url!',
 };
 
 module.exports = {
