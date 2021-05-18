@@ -30,9 +30,7 @@ module.exports = {
             pattern: 'master',
             notifyOnSuccess: true,
             notifyOnFail: true,
-            onSuccessTemplate: {
-              text,
-            },
+            onSuccessTemplate: text,
           },
         ],
       },
