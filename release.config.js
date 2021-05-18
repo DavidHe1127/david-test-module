@@ -11,6 +11,21 @@ module.exports = {
     '@semantic-release/npm',
     '@semantic-release/github',
     '@semantic-release/git',
+    [
+      'semantic-release-slack-bot',
+      {
+        notifyOnSuccess: false,
+        notifyOnFail: false,
+        slackWebhook: process.env.SLACK_WEBHOOK,
+        branchesConfig: [
+          {
+            pattern: 'master',
+            notifyOnSuccess: true,
+            notifyOnFail: true,
+          },
+        ],
+      },
+    ],
   ],
   ci: false,
   dryRun: false,

@@ -14,4 +14,9 @@ export NPM_TOKEN=$(aws ssm get-parameter \
     --output text \
     --with-decryption)
 
+export SLACK_WEBHOOK=$(aws ssm get-parameter \
+    --name /lab/slack-webhook \
+    --query Parameter.Value \
+    --output text)
+
 npx semantic-release
