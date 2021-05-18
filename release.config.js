@@ -30,6 +30,7 @@ module.exports = {
         notifyOnFail: false,
         slackWebhook: process.env.SLACK_WEBHOOK,
         packageName: 'david-test-module',
+        markdownReleaseNotes: true,
         branchesConfig: [
           {
             pattern: 'master',
