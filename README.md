@@ -4,12 +4,6 @@ It's a useless module with the purpose of experimenting npm packages releasing w
 
 To streamline release process, we will use `semantic-release` to assist with this.
 
-## david-test-module
-
-It's a useless module with the purpose of experimenting npm packages releasing workflow.
-
-To streamline release process, we will use `semantic-release` to assist with this.
-
 ### Normal release workflow
 
 Same as what is currently in place.

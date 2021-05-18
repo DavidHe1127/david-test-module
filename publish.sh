@@ -1,6 +1,7 @@
 #!/bin/bash
 
-# use get-parameters to get both in one go and jq to strip out expected value
+export AWS_PROFILE=qq
+
 export GITHUB_TOKEN=$(aws ssm get-parameter \
     --name /lab/github \
     --query Parameter.Value \
@@ -8,7 +9,7 @@ export GITHUB_TOKEN=$(aws ssm get-parameter \
     --with-decryption)
 
 export NPM_TOKEN=$(aws ssm get-parameter \
-    --name '/lab/npm' \
+    --name /lab/npm \
     --query Parameter.Value \
     --output text \
     --with-decryption)
