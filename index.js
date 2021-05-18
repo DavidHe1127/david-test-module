@@ -1,1 +1,1 @@
-const test = 'test slack bot';
+const test = 'test';
