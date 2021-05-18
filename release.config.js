@@ -1,17 +1,6 @@
 // semantic release config
 // This test run was triggered on the branch chore/tidy-up, while semantic-release is configured to only publish from master, prerelease/support-prerelease-glob-name, therefore a new version won’t be published.
 
-const text = {
-  type: 'mrkdwn',
-  text:
-    `$package_name@$npm_package_version
-
-     :ghost::ghost:
-
-     $release_notes
-    `
-};
-
 module.exports = {
   branches: [
     'master',
@@ -36,7 +25,6 @@ module.exports = {
             pattern: 'master',
             notifyOnSuccess: true,
             notifyOnFail: true,
-            onSuccessTemplate: text,
           },
         ],
       },
